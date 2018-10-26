@@ -1,0 +1,76 @@
+body {
+    background-color: orange;
+   
+}
+*{box-sizing: border-box;}
+header { background-color: white;
+      background-image:  url(moeightnew.jpg),  url(moeightnew.jpg);
+    background-position: right, left;
+	  background-repeat: no-repeat;
+	   height: 150px;
+	   display:block;
+	  
+}
+p{font-family:Verdana, sans-serif; color:#000;line-height: 1.4em; font-size:1em;}
+h1,h2,h3{font-family: Shrikhand}
+
+h1 { padding-top: 50px;
+     font-family: 'Pacifico', cursive;
+    text-align: center;
+	float: center-right;
+}
+a {
+    color: #61381D;
+}
+nav { display:block;
+     font-weight: bold; 
+	 padding: 1em;
+	 background-color: #4E85C4;
+	 float: left;
+	 width: 195px;
+}
+nav a { text-decoration: none;
+display: block;
+padding: 1em;
+
+font-weight: bold;
+background-color: orange;
+  color: black;
+font-size: medium;
+text-align: center;
+margin-bottom: 1em;
+border-style:outset;
+border-width:3px;
+border-color:#1A8A6F; 
+}
+nav a:link{color:#3F2860;}
+nav a:visited{color:#3F2860;}
+nav a:hover {color:white; border:6px inset #1A8A6F; }
+nav ul {list-style-type: none;
+        padding:0em;}
+main { padding-left: 2em;
+margin-left:170px;
+padding-top:1em;
+      padding-right: 2em;
+	  background-color: #4E85C4;
+	  display: block; }
+.studio { font-style: italic; 
+}
+
+.floatleft{float:left;margin-right:4em;}
+.clear{clear:both;}
+footer { background-color: orange;
+display:block;
+       font-size: medium;
+	   font-style: bold;
+	   font-color:white;
+	   text-align: center;
+	   padding: 1em;
+}
+#wrapper { width: 80%;
+           margin-left: auto;
+		   margin-right: auto;
+		   background-color:  #4E85C4;
+		   min-width: 1200px;
+		   max-width: 1480px;}
+	   
